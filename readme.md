@@ -7,3 +7,6 @@
 3)komputer: losowanie ustawilem najprosciej jak sie da z filtrowaniem pol ktore juz zostaly wylosowane,
 	-dodalem mechanizm ktory w przypadku zniszczenia statku ustawia pola wokol niego na sprawdzone
 	-nie dodalem mechanizmu ktory w przypadku trafienia kontynuuje celowanie w danym regionie
+<p align="left">
+  <img width="50%" src="game.png">
+</p>
