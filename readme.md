@@ -1,3 +1,8 @@
+Aplikacja zostala poszerzona o front w reakcie, ktory jest bardzo surowy i nie taki jak bym chcial, reaktoring silnia wymagany,
+Jesli chodzi o wczesniejsza aplikacja consolowa zostala zmieniona na biblioteke i zrefaktoryzowana wedlug zasad (mam nadzieje) Czystego Kodu
+
+
+//TODO ponizej tekst do zaaktualizowania
 1)przechowywanie wynikow oraz konstrukcja modelu: myslalem nad tablica dwuwymiarowa, ostatecznie wybralem liste
 
 2)losowanie statkow na mapie: ze wzgledu na wybrany model statku, (czyli uwzgledniajacy jego poczatek i koniec) 
