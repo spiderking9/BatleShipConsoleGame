@@ -3,6 +3,7 @@ Jesli chodzi o wczesniejsza aplikacja consolowa zostala zmieniona na biblioteke 
 
 
 //TODO ponizej tekst do zaaktualizowania
+
 1)przechowywanie wynikow oraz konstrukcja modelu: myslalem nad tablica dwuwymiarowa, ostatecznie wybralem liste
 
 2)losowanie statkow na mapie: ze wzgledu na wybrany model statku, (czyli uwzgledniajacy jego poczatek i koniec) 
