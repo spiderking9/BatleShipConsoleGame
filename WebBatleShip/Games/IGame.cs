@@ -10,7 +10,7 @@ namespace WebBatleShip.Games
         public Player player2 { get; set; }
         //public bool playerOneMove { get; set; }
         //public bool playerTwoMove { get; set; }
-        public WhoWin whoWin { get; set; }
+        public WhoWin whichPlayerTurns { get; set; }
         public void PlayerOneMove();
         public void PlayerTwoMove();
         public void HumanMove(int vertical, int horizontal);

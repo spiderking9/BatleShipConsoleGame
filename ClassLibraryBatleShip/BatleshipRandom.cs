@@ -34,10 +34,12 @@ namespace ClassLibraryBatleShip
 
         public Field Field(List<Field> board)
         {
+            //TODO wrazie wyczerpania pulli wywala bledy
+            if (board.Count == 0) return new Field();
             System.Random rn = new System.Random();
             List<Field> fieldsListWithoutCheckedAndWrack = board.Where(w => w.FieldStatus != FieldStatusEnum.Checked && w.FieldStatus != FieldStatusEnum.Wrack).ToList();
             int index = rn.Next(fieldsListWithoutCheckedAndWrack.Count);
-
+            if (fieldsListWithoutCheckedAndWrack.Count == 0) return new Field();
             return fieldsListWithoutCheckedAndWrack[index];
         }
 
